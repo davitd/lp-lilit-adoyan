@@ -1,0 +1,244 @@
+.wid {
+  width: 1440px;
+  max-width: 100%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.start-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 612px;
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .start-wrapper {
+    margin: 64px auto;
+    width: 400px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .img-wrapper {
+    display: none !important;
+  }
+}
+.location-name-instruction {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: #3e352f;
+  max-width: 330px;
+  margin-left: 130px !important;
+  margin: auto;
+  align-items: center;
+  text-align: left;
+}
+.location-name-instruction > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.inner-wrapper {
+  padding: 50px 30px 40px;
+}
+@media only screen and (max-width: 900px) {
+  .inner-wrapper {
+    padding: 20px;
+  }
+}
+
+.navbar {
+  height: fit-content;
+  margin-top: 50px;
+  margin-right: 30px;
+  max-width: 188px;
+  width: 100%;
+  height: auto;
+}
+.wr-wrapper {
+  background: #fef6f0;
+  box-shadow: 0px 0px 30px rgba(91, 105, 152, 0.2);
+  border-radius: 16px;
+}
+.pic {
+  max-width: 539px;
+  width: 100%;
+  height: auto;
+}
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.login {
+  font-family: "Manrope";
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .login {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .login >p{
+    margin-top: 11px!important; 
+  }
+  .login >a{
+    margin-top: 11px!important; 
+
+  }
+}
+@media only screen and (max-width: 900px) {
+  .wid {
+    display: block;
+    text-align: end;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hamburger-mobile {
+    margin-top: 31px;
+    height: 24px;
+    width: 56px;
+  }
+}
+@media only screen and (max-width: 900px) {
+    .inner-wrapper {
+     text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .inner-wrapper > button {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        text-transform: uppercase;        
+        color: #3E352F;
+        margin-top: 10px;
+        
+    }
+  }
+
+.login > a {
+  margin: 16px 7px 0;
+
+  text-decoration-line: underline;
+  color: #585dec;
+}
+.login > p {
+  margin: 16px 7px 0;
+  color: #3e352f;
+}
+
+.error {
+  max-width: 240px;
+  margin: 0 auto 0 130px;
+  font-weight: 800;
+  font-size: 8px;
+  line-height: 11px;
+  color: #d50000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  margin-right: 0.5em;
+}
+.nav-wrapper {
+  margin-top: 131px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+li > a:visited {
+  color: #3e352f;
+}
+.copyright {
+  text-align: center;
+}
+.field-wrapper > span {
+  text-decoration: none;
+}
+span {
+  width: 108px;
+  text-align: end;
+  align-self: center;
+  margin-bottom: 0;
+  text-decoration-line: underline;
+}
+.field-wrapper {
+  display: flex;
+}
+.MuiFormControl-root {
+  margin: 10px 16px !important;
+}
+@media only screen and (max-width: 900px) {
+    .MuiFormControl-root {
+        margin: 0 !important;
+        height: 14px;
+    }
+  }
+.btn-wrapper {
+  display: flex;
+  justify-content: end;
+}
+.btn-wrapper > button {
+  margin-right: 48px;
+}
+.MuiFormHelperText-root {
+  font-family: "Manrope" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 8px !important;
+  line-height: 11px !important;
+
+  color: #d50000 !important;
+}
+button {
+  cursor: pointer;
+}
+
+.logo-mobile1{
+    position: absolute;
+    right: 0;
+    margin-top: 16px;
+}
+.logo-mobile2{
+    position: absolute;
+    left: 0;
+    margin-top: 33px;
+}
+.couple-mobile{
+    margin-top: 100px;
+    max-width: 342px;
+    width: 100%;
+    height: auto;
+}
+.nav-wrapper-mobile{
+    margin-top: 0;
+}

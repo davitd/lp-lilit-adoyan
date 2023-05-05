@@ -1,0 +1,47 @@
+.btn-container {
+  display: flex;
+  width: 216px;
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+  margin-top: 16px;
+}
+.btn-container > button:first-child {
+  margin-right: 12px;
+}
+.logo-wrapper-mobile {
+  margin-top: 16px;
+}
+.error-mobile {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6px;
+  line-height: 8px;
+
+  color: #d50000;
+  max-width: 196px;
+  margin: auto;
+  text-align: left;
+}
+.label-mobile {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #3e352f;
+  margin-top: 14px;
+  text-align: left;
+  max-width: 216px;
+  margin: auto;
+}
+.label-mobile-wrapper {
+    margin-bottom: 10px;
+    margin-top: 14px;
+  }
+
+.d-none{
+    display: none;
+}

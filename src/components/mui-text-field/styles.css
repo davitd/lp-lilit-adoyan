@@ -1,0 +1,31 @@
+.m-item {
+  max-width: 350px;
+  width: 100%;
+  box-sizing: border-box;
+
+position: absolute;
+width: 380px;
+height: 46px;
+border: 2px solid #F6A95F;
+border-radius: 12px;
+}
+.m-item>div{
+    border-radius: 12px;
+}
+
+.label{
+    
+        font-family: "Manrope";
+        font-style: normal;
+        width: 108px;
+        text-align: end;
+        align-self: center;
+        margin-bottom: 0px!important;
+        text-decoration: none;
+
+      
+}
+.row-wrapper{
+    display: flex;
+}
+

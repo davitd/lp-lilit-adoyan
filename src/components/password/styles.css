@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 900px) {
+    .password-label-wrapper{
+        display: none;
+    }
+  }
+
+
+@media only screen and (max-width: 900px) {
+    .field-wrapper{
+        justify-content: center;
+    }
+  }
